@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Model artifacts
+*.pt
+*.bin
+*.pkl
+*.safetensors
+
+# Audio files
+*.wav
+*.mp3
+*.flac
+
+# Data
+librispeech_data/
+test_outputs/
+
+# Environment
+.env
+venv/
+.venv/
+
+# Experiment tracking
+wandb/
+
+# IDE
+.vscode/
+.idea/
